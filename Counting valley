@@ -1,0 +1,34 @@
+Gary is an avid hiker. He tracks his hikes meticulously, paying close attention to small details like topography.
+During his last hike he took exactly n steps. For every step he took, he noticed if it was a uphill, U or a 
+downhill, D step. Gary's hike starts and end at sea level and each step up or down represents as 1 unit change in 
+altitude. We define the following terms:
+
+a)A mountain is a sequence of consecutive steps above sea level, starting with a step up from sea level and ending 
+   with a step down to sea level.
+b)A valley is a sequence of consecutive steps below sea level, starting with a step down from sea level and ending 
+   with a step up to sea level.
+
+Given Gary's sequence of up and down steps during his last hike, find and print the number of valleys he walked through.
+
+For example, if Gary's path is S=[DDUUUUDD], he first enters a valley 2 units deep. Then he climbs out an up onto a
+mountain 2 units high. Finally, he returns to sea level and ends his hike.
+
+FUNCTION DESCRIPTION
+
+Complete the countingValleys function in the editor below. It must return an integer that denotes the number of valleys Gary traversed.
+countingValleys has the following parameter(s):
+
+INPUT FORMAT
+    The first line contains an integer n, the number of steps in Gary's hike.
+The second line contains a single string s,n of  characters that describe his path.
+
+OUPUT FORMAT
+    Print a single integer that denotes the number of valleys Gary walked through during his hike.
+    
+SAMPLE OUPUTPS
+
+8
+UDDDUDUU ==> 1
+
+12
+DDUUDDUDUUUD ==> 2
